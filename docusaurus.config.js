@@ -9,17 +9,14 @@ const config = {
   title: 'MTG Legends Almere',
   tagline: 'Magic: the Gathering Club in Almere',
   favicon: 'img/magic-icon.jpg',
+  trailingSlash: false,
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+  url: 'https://instantgabe.github.io/MTGLA',
   baseUrl: '/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'MTG Legends Almere', // Usually your GitHub org/user name.
-  projectName: 'MTGLA NewSite', // Usually your repo name.
+  projectName: 'instantgabe.github.io/MTGLA',
+  organizationName: 'InstantGabe',
+  deploymentBranch: 'main',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -31,7 +28,6 @@ const config = {
     defaultLocale: 'nl',
     locales: ['nl'],
   },
-
   presets: [
     [
       'classic',
@@ -69,7 +65,6 @@ const config = {
         },
         ],
       },
-      header: { title: 'De Magic: The Gathering vereniging van Almere'},
       footer: {
         links: [
           {
