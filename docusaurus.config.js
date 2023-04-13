@@ -57,8 +57,6 @@ const config = {
         },
         items: [
           {to: '/', label: 'Home', position: 'left'},
-          {to: '/FNM', label: 'Friday Night Magic', position: 'left'
-          },
           {to: '/Betaalgegevens', label: 'Betaalgegevens', position: 'left'
           },
           {to: '/Formats', label: 'Formats', position: 'left'
