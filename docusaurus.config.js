@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/vsDark');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'MTG Legends Almere',
-  tagline: 'Magic: the Gathering Club in Almere',
+  tagline: 'De Magic: the Gathering vereniging van Almere',
   favicon: 'img/magic-icon.jpg',
   trailingSlash: false,
 
@@ -101,11 +101,6 @@ const config = {
                     ],
           },
           ],
-      },
-      announcementBar: {
-        id: 'general',
-        content: 'De Magic: The Gathering vereniging van Almere',
-        isCloseable: false,
       },
       prism: {
         theme: lightCodeTheme,
