@@ -12,9 +12,9 @@ const config = {
   trailingSlash: false,
 
   // Set the production url of your site here
-  url: 'https://instantgabe.github.io/MTGLA',
+  url: 'https://instantgabe.github.io',
   baseUrl: '/',
-  projectName: 'instantgabe.github.io/MTGLA',
+  projectName: 'instantgabe.github.io',
   organizationName: 'InstantGabe',
   deploymentBranch: 'main',
 
