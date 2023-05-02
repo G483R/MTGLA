@@ -57,6 +57,7 @@ const config = {
         },
         items: [
           {to: '/', label: 'Home', position: 'left'},
+          {to: '/planning', label: 'Planning', position: 'left'},
           {to: '/Betaalgegevens', label: 'Betaalgegevens', position: 'left'
           },
           {to: '/Formats', label: 'Formats', position: 'left'
